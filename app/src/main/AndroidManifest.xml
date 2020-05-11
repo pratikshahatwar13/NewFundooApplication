@@ -24,7 +24,10 @@
         </service>
 
 
-        <activity android:name="com.bridgelabzs.add_note_page.AddNoteActivity" />
+        <activity android:name="com.bridgelabzs.add_note_page.AddNoteActivity"
+            android:parentActivityName="com.bridgelabzs.dashboard.DashboardActivity">
+
+        </activity>
         <activity
             android:name="com.bridgelabzs.dashboard.DashboardActivity"
             android:label="@string/title_activity_dashboard"
@@ -32,8 +35,6 @@
 
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>

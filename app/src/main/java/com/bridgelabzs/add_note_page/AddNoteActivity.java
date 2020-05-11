@@ -101,7 +101,7 @@ public class AddNoteActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_note);
-
+        Log.e("Notification","open activity");
 //       noteViewModel = new NoteViewModel(this);
          noteViewModel = new NoteViewModel();
 
